@@ -1,0 +1,55 @@
+name: Bug report
+description: Report a reproducible problem with the userscript
+title: "Bug: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a problem. Please include enough detail to reproduce it.
+  - type: input
+    id: browser
+    attributes:
+      label: Browser
+      description: Browser name and version
+      placeholder: Chrome 124, Firefox 125, Edge 124
+    validations:
+      required: true
+  - type: input
+    id: manager
+    attributes:
+      label: Userscript manager
+      description: Manager name and version
+      placeholder: ScriptCat 0.17.x, Violentmonkey 2.x, Stay for Safari 2.x
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: WTR Lab page
+      description: URL pattern where the issue appears
+      placeholder: https://wtr-lab.com/en/...
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to ...
+        2. Click ...
+        3. See ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
