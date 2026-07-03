@@ -10,6 +10,8 @@
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y01PSSVR)
 
+<img width="332" height="900" alt="image" src="https://github.com/user-attachments/assets/c75eeeb0-55d3-483e-8087-e17afebe4ae5" />
+
 A WTR-Lab.com userscript that adds a Free Batch Retranslate button to the existing Batch Re-Translate drawer — batch-retranslate chapters filtered by model using your free daily quota, with live progress. No tickets are spent, no payment is bypassed, and only same-origin requests are used.
 
 ## Features
